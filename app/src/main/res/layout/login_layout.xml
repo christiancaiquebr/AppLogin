@@ -15,9 +15,13 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:hint="@string/usuario"
+            android:hint="@string/usuario" />
 
-            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/senha"
+            android:inputType="textPassword"/>
 
     </LinearLayout>
 
@@ -31,6 +35,28 @@
             android:layout_height="wrap_content"
             android:text="@string/sign_in" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farget password?" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don´t have an account? Creat new." />
     </LinearLayout>
 
 </LinearLayout>
