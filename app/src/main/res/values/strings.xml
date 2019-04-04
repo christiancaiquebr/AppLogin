@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AppLogin</string>
+    <string name="sign_in">Sign In</string>
+    <string name="usuario">johnsmith</string>
+
 </resources>
